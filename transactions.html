@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet2.css">
+    <style>
+        .content .table .code, .datetime, .dcode, .pcode, .pqty, .price{
+            width: 15%;
+        }
+        .content .table .status{
+            width: 8%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="text">
+                    <img src="img\manageinaja..png">
+                    <h1>manageinaja.</h1>
+                </div>
+                <div class="line">
+                    <hr>
+                </div>
+            </div>
+            <div class="profile">
+                <p>Hi, Shaapy!</p>
+                <img src="img\shaapy.jpg">
+            </div>
+        </header>
+        <main>
+            <div class="sidebar">
+                <div class="top">
+                    <ul>
+                        <li><a href="dashboard.html"><iconify-icon icon="material-symbols:dashboard-outline" width="20" height="20"></iconify-icon>Dashboard</a></li>
+                        <li><a href="all products.html"><iconify-icon icon="fluent-mdl2:product-variant" width="20" height="20"></iconify-icon>All Products</a></li>
+                        <li><a href="all distributors.html"><iconify-icon icon="material-symbols:real-estate-agent-outline-sharp" width="20" height="20"></iconify-icon>All Distributors</a></li>
+                        <li><a href="goods in.html"><iconify-icon icon="bx:archive-in" width="20" height="20"></iconify-icon>Goods In</a></li>
+                        <li><a href="goods out.html"><iconify-icon icon="bx:archive-out" width="20" height="20"></iconify-icon>Goods Out</a></li>
+                        <li class="active"><a href="transactions.html"><iconify-icon icon="icon-park-outline:transaction-order" width="20" height="20"></iconify-icon>Transactions</a></li>
+                        <li><a href="accounts receivables.html"><iconify-icon icon="ic:outline-paid" width="20" height="20"></iconify-icon>Accounts Receivables</a></li>
+                        <li><a href="history.html"><iconify-icon icon="ic:round-history" width="20" height="20"></iconify-icon>History</a></li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="">
+                        <iconify-icon icon="mdi:logout" width="20" height="20"></iconify-icon>
+                        <p>Logout</p>
+                    </a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="top">
+                    <p class="judul">Transactions</p>
+                    <a href="">
+                        <iconify-icon icon="ph:plus" width="15" height="15"></iconify-icon>
+                        <p>Add</p>
+                    </a>
+                </div>
+                <div class="table">
+                    <div class="title">
+                        <p class="datetime">Date and Time</p>
+                        <p class="code">Transaction Code</p>
+                        <p class="dcode">Distributor Code</p>
+                        <p class="pcode">Product Code</p>
+                        <p class="pqty">Product Quantity</p>
+                        <p class="price">Total Price</p>
+                        <p class="status">Status</p>
+                    </div>
+                    <hr>
+                    <div class="transaction">
+                        <p class="datetime">1 Jan 2023 09:00:00</p>
+                        <p class="code">T001</p>
+                        <p class="dcode">D001</p>
+                        <p class="pcode">P001</p>
+                        <p class="pqty">100</p>
+                        <p class="price">Rp2.000.000,00</p>
+                        <div class="status">
+                            <input type="checkbox" id="check" value="Paid">
+                        </div>
+                        <ul>
+                            <li class="popup">
+                                <a class="popup-btn"><iconify-icon icon="material-symbols:more-vert" class="test" width="15" height="15"></iconify-icon></a>
+                                <div class="popup-box">
+                                    <a href=""><iconify-icon inline icon="material-symbols:edit-square-outline" style="color: black;" width="15" height="15"></iconify-icon>      Edit</a>
+                                    <a href=""><iconify-icon inline icon="material-symbols:delete-outline-rounded" style="color: black;" width="15" height="15"></iconify-icon>      Delete</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="transaction">
+                        <p class="datetime">1 Jan 2023 09:00:00</p>
+                        <p class="code">T002</p>
+                        <p class="dcode">D001</p>
+                        <p class="pcode">P001</p>
+                        <p class="pqty">100</p>
+                        <p class="price">Rp2.000.000,00</p>
+                        <div class="status">
+                            <input type="checkbox" id="check" value="Paid">
+                        </div>
+                        <ul>
+                            <li class="popup">
+                                <a class="popup-btn"><iconify-icon icon="material-symbols:more-vert" class="test" width="15" height="15"></iconify-icon></a>
+                                <div class="popup-box">
+                                    <a href=""><iconify-icon inline icon="material-symbols:edit-square-outline" style="color: black;" width="15" height="15"></iconify-icon>      Edit</a>
+                                    <a href=""><iconify-icon inline icon="material-symbols:delete-outline-rounded" style="color: black;" width="15" height="15"></iconify-icon>      Delete</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="transaction">
+                        <p class="datetime">1 Jan 2023 09:00:00</p>
+                        <p class="code">T003</p>
+                        <p class="dcode">D001</p>
+                        <p class="pcode">P001</p>
+                        <p class="pqty">100</p>
+                        <p class="price">Rp2.000.000,00</p>
+                        <div class="status">
+                            <input type="checkbox" id="check" value="Paid">
+                        </div>
+                        <ul>
+                            <li class="popup">
+                                <a class="popup-btn"><iconify-icon icon="material-symbols:more-vert" class="test" width="15" height="15"></iconify-icon></a>
+                                <div class="popup-box">
+                                    <a href=""><iconify-icon inline icon="material-symbols:edit-square-outline" style="color: black;" width="15" height="15"></iconify-icon>      Edit</a>
+                                    <a href=""><iconify-icon inline icon="material-symbols:delete-outline-rounded" style="color: black;" width="15" height="15"></iconify-icon>      Delete</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

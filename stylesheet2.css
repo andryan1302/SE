@@ -1,0 +1,115 @@
+.content .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.content .top p{
+    margin: 0;
+}
+
+.content .top a{
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    height: 35px;
+    background-color: #F4B238;
+    text-decoration: none;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.content .top a iconify-icon{
+    margin-right: 3px;
+    color: black;
+}
+
+.content .top a p{
+    color: black;
+}
+
+.content .top a:hover{
+    background-color: #F1A838;
+    font-size: 14.3px;
+}
+
+.content .table hr{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.content .table p{
+    font-family: 'Mukta';
+    color: black;
+}
+
+.content .table .title, .product, .distributor, .goodsin, .goodsout, .transaction, .accrec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content .table .title p{
+    opacity: 0.4;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.content .table .status input{
+    margin-left: 13px;
+}
+
+.content .table div p{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.content .table div iconify-icon{
+    color: black;
+    cursor: pointer;
+    position: relative;
+}
+
+/* popup titik 3 */
+
+li .popup{
+    display: inline-block;
+}
+
+.popup-box{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.popup-box a{
+    color: black;
+    padding: 5px 30px 5px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: white;
+    font-size: 12px;
+    font-family: 'Mukta';
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.popup-box a:hover{
+    background-color: lightgray;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.popup:hover .popup-box{
+    display: inline-block;
+    right: 70px;
+}
