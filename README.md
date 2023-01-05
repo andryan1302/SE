@@ -1,4 +1,4 @@
 # SE
 Ini merupakan repository untuk latihan SE pertama
 
-andryan anjing
+andryan keren banget
